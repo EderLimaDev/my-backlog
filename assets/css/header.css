@@ -1,0 +1,28 @@
+header {
+    height:70px;
+    color: #f1fdf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #46e345;
+}
+
+header h1, 
+header .login {
+    margin: 0 5%;
+    color: #125514;
+    cursor: pointer;
+}
+
+header .login::before {
+    content: '';
+    background-image: url('../imgs/user-circle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 .5rem;
+    margin-right: .5rem;
+}
+
+header .login:hover {
+    text-decoration: underline;
+}
